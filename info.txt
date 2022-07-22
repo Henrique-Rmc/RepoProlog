@@ -1,0 +1,4 @@
+swipl para rodar o prolog
+
+consult("nomedoArquivo.pl").
+
