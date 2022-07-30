@@ -1,6 +1,7 @@
-acc(X, R):-R is X*2.
+ana(X,Y,R):-R is X*2.
 
 main:-
 read(X),
-acc(X,Y),
+read(Y),
+
 write(Y).
