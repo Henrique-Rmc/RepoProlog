@@ -2,3 +2,20 @@ swipl para rodar o prolog
 
 consult("nomedoArquivo.pl").
 
+Regras: Facilitam a execuçaõ de consultas e tornam o programa mais expressivo.
+
+Uma cláusula em Prolog correponde a uma formala lógica em 1 ordem.
+
+:- (Se), Implicação
+, (e) Conjunção
+; (ou) disjunção
+
+A(x)-> B(x) V (C(x) ^ D(x)) 
+=== 
+a(x):- 
+b(X);
+(c(x), d(x)) 
+
+pl3: Um anagrama é uma palavra formada pela alteração da ordem das letras de uma outra palavra. Faça um programa que receba duas palavras e verifique se são anagramas uma da outra.
+
+pl4: Faça um programa que receba duas matrizes, de mesmo tamanho, e retorne a matriz resultante da soma delas.
